@@ -33,19 +33,19 @@ class UI {
             </button>
             <hr>
             <li class="list-group">
-                <li class="list-group-item borderzero">
+                <li class="list-group-item border">
                     <img src="images/company.png" width="30px"> <span id="company">${user.company}</span>
                     
                 </li>
-                <li class="list-group-item borderzero">
+                <li class="list-group-item border">
                     <img src="images/location.png" width="30px"> <span id = "location">${user.location}</a>
                     
                 </li>
-                <li class="list-group-item borderzero">
+                <li class="list-group-item border">
                     <img src="images/mail.png" width="30px"> <span id="mail">${user.email}</span>
                     
                 </li>
-                
+              </li>
             </div>
                
             
@@ -57,7 +57,7 @@ class UI {
 
     repos.forEach((repo) => {
       this.repoDiv.innerHTML += `   
-    <div class="mb-2 card-body">
+    <div class="card mb-2 card-body">
     <div class="row">
         <div class="col-md-2">
         <a href="${repo.html_url}" target = "_blank" id = "repoName">${repo.name}</a>

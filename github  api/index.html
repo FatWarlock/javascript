@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="main.css">
     <title>Github API</title>
 
     <style>
@@ -17,13 +17,13 @@
 <body>
    
     <div class="container searchContainer">
-        <div class="search card card-body">
+        <div class="search card card-body" >
             <h3>Search Github Users</h3>
-            <p class="lead">
+            <p class="lead" ">
                 Enter User Name
             </p>
             <form id = "github-form">
-                <input type="text" name="githubname" id="githubname" class = "form-control" placeholder="Search Github Username">
+                <input type="text" name="githubname" id="githubname" class = "form-control" placeholder="Search Github Username" 
                 <br>
                 <button type = "submit" class ="btn btn-dark">Search</button>
             </form>
@@ -80,7 +80,7 @@
 
             
             <h3 class="page-heading mb-3">Last Repos</h3>
-            <div id="repos">
+            <div id="repos" class="list-group">
                  
                  <!-- <div class="mb-2 card-body">
                     <div class="row">

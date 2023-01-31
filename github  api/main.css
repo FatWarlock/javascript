@@ -1,0 +1,28 @@
+body{
+    background-color: darkgray;
+}
+.search.card.card-body {
+    background-color: rgb(201, 170, 170);
+}
+#githubname {
+    background-color: rgb(48, 49, 49);
+    color: rgb(100, 89, 82)
+}
+#githubname::placeholder{
+    color:rgb(177, 167, 167)
+}
+#hithubname:hover {
+    background-color: rgb(48, 49, 49);
+}
+.card.card-body.mb-3{
+  background-color: rgb(201, 170, 170);
+}
+.list-group-item.border{
+    background-color: rgb(100, 89, 82)
+}
+.card.mb-2.card-body{
+    background-color: darkslategrey;
+}
+.list-group-item {
+    background-color: dimgray;
+}
